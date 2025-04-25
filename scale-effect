@@ -1,0 +1,25 @@
+<!--interactive-scale-effect-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale Effect</title>
+    <style>
+        img {
+            width: 200px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://dummyimage.com/200x200/000/fff" alt="Placeholder">
+</body>
+
+</html>
